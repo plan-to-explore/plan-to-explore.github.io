@@ -166,7 +166,7 @@ a {
 .main-content {
   word-wrap: break-word;
   text-align: justify;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 
   :first-child {
     margin-top: 0;
@@ -372,4 +372,13 @@ a {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+}
+
+.behavior {
+  position: relative;
+  display: block;
+  margin-bottom: -8%;
+  width: 100%;
+  -webkit-clip-path: inset(0 0 50% 0);
+  clip-path: inset(0 0 50% 0);
 }
